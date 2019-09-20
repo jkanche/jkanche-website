@@ -27,13 +27,17 @@ footnotereturnlinkcontents = "↩"
     name = "Publications"
     url = "/publications/"
     weight = 4
-[[menu.main]]
-    name = "FAQ"
-    url = "/faq/"
-    weight = 5
+# [[menu.main]]
+#     name = "FAQ"
+#     url = "/faq/"
+#     weight = 5
 # [[menu.main]]
 #     name = "Tags"
 #     url = "/tags/"
+#     weight = 5
+# [[menu.main]]
+#     name = "Categories"
+#     url = "/categories/"
 #     weight = 6
 # [[menu.main]]
 #     name = "Subscribe"

@@ -28,4 +28,4 @@ Send a message to
 
 ## Recent Posts
 
-    Something will eventually show up here!
+<!-- Something will eventually show up here! -->
