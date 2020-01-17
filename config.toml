@@ -15,18 +15,18 @@ footnotereturnlinkcontents = "↩"
     name = "Home"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-[[menu.main]]
-    name = "Publications"
-    url = "/publications/"
-    weight = 4
+# [[menu.main]]
+#     name = "About"
+#     url = "/about/"
+#     weight = 2
+# [[menu.main]]
+#     name = "About"
+#     url = "/about/"
+#     weight = 3
+# [[menu.main]]
+#     name = "Publications"
+#     url = "/publications/"
+#     weight = 4
 # [[menu.main]]
 #     name = "FAQ"
 #     url = "/faq/"
@@ -35,14 +35,17 @@ footnotereturnlinkcontents = "↩"
 #     name = "Tags"
 #     url = "/tags/"
 #     weight = 5
-# [[menu.main]]
-#     name = "Categories"
-#     url = "/categories/"
+[[menu.main]]
+    name = "Blog"
+    url = "/post/"
 #     weight = 6
-# [[menu.main]]
-#     name = "Subscribe"
-#     url = "/index.xml"
+[[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
 
 [params]
     description = "I am currently a Faculty Researcher/Scientific Programmer with Dr. [Hector Corrada Bravo](http://www.hcbravo.org) at the Center for Bioinformatics and Computational Biology, University of Maryland, College Park. I primarily work as the lead developer on the [Epiviz framework](http://www.epiviz.org), developing interactive and integrative visual and exploratory tools for biomedical datasets (epigenomic and metagenomics)."
-    footer = "&copy; [Jayaram Kancherla](https://jkanche.com) 2018 -- 2019 | [Github](https://github.com/jkanche) | [Twitter](https://twitter.com/jayaram) | modified theme from [hugo-XMin](https://github.com/yihui/hugo-xmin)"
+    footer = "&copy; [Jayaram Kancherla](https://jkanche.com) 2018 -- 2020 | [Github](https://github.com/jkanche) | [Twitter](https://twitter.com/jayaram) | modified theme from [hugo-XMin](https://github.com/yihui/hugo-xmin)"
+
+[markup.goldmark.renderer]
+    unsafe= true
